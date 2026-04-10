@@ -1,0 +1,38 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(135deg, orange, yellow);
+    text-align: center;
+    margin-top: 100px;
+}
+
+.container {
+    background: #fff3e0;
+    padding: 25px;
+    border-radius: 15px;
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+input, button {
+    padding: 10px;
+    margin: 8px;
+    width: 220px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #ff9800;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e68900;
+}
+
+#msg {
+    margin-top: 10px;
+    font-weight: bold;
+}
